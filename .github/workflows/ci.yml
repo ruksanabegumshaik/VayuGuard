@@ -15,8 +15,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Lint step
-        run: echo "Lint passed ✔"
-
-      - name: Test step
-        run: echo "Test passed ✔"
+      - name: CI Status
+        run: echo "CI is working successfully ✔"

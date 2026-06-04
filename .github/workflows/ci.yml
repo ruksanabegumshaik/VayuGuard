@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Lint step
-        run: echo "Lint check passed"
+      - name: Lint Step
+        run: echo "Lint check passed ✔"
 
-      - name: Test step
-        run: echo "Test cases passed"
+      - name: Test Step
+        run: echo "Test cases passed ✔"

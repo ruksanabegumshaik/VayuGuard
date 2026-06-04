@@ -1,4 +1,4 @@
-name: CI Pipeline (Lint + Test)
+name: CI Pipeline (Demo)
 
 on:
   pull_request:
@@ -15,10 +15,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Lint Step
-        run: echo "Lint check passed ✔"
+      - name: Lint step
+        run: echo "Lint passed ✔"
 
-      - name: Test Step
-        run: echo "Test cases passed ✔"
-              - name: Debug
-        run: echo "CI re-triggered"
+      - name: Test step
+        run: echo "Test passed ✔"
